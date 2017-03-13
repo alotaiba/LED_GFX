@@ -183,6 +183,7 @@ void seqOutDone() {
 ## `LED_GFX(rows, columns, [brightness])`
 Creates a new `LED_GFX` class to manage one or multiple `Sequence` effects, and to manage the display of those effects. It sets up the display with appropriate number of rows, columns, and brightness level.
 
+#### Parameters:
 | Name | Type | Description |
 |------|------|-------------|
 | `rows` | `uint8_t` | Number of LED matrix rows. |
