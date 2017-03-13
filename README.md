@@ -38,7 +38,7 @@ See the examples folder for more details.
 
 # Documentation
 
-There are two main classes that are needed to interact with LED matrix display. (`Sequence`)[#sequence] and (`LED_GFX`)[#led-gfx-rows-columns-brightness]. `Sequence` is used for specifying the text to be displayed, its in and out effects, speed to which it moves, and pause. On the other hand, `LED_GFX`, takes all `Sequence` objects and queue them for display.
+There are two main classes that are needed to interact with LED matrix display. [`Sequence`](#sequence) and [`LED_GFX`](#led-gfx-rows-columns-brightness). `Sequence` is used for specifying the text to be displayed, its in and out effects, speed to which it moves, and pause. On the other hand, `LED_GFX`, takes all `Sequence` objects and queue them for display.
 
 ## `Sequence`
 Creates a new `Sequence` class to manage text, effect, speed, etc.
